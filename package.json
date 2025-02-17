@@ -1,0 +1,40 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "sass": "sass src/resources/scss/app.scss:src/public/css/app.css",
+    "sass:watch": "sass --watch src/resources/scss/app.scss:src/public/css/app.css",
+    "dev": "concurrently \"npm run sass:watch\" \"npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanpham772k3/nodejs_blog.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "f8",
+    "nodejs",
+    "nodejs"
+  ],
+  "author": "tuanap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuanpham772k3/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/tuanpham772k3/nodejs_blog#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "sass": "^1.85.0"
+  }
+}
