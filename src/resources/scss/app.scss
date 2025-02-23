@@ -1,7 +1,7 @@
 @import "haha";
-h1 {
-  color: $red-color;
-}
-h2 {
-  color: blue;
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  margin-right: 4px;
+  border-radius: 50%;
 }
